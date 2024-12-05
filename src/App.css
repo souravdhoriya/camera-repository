@@ -1,0 +1,56 @@
+
+.main-section{
+  display: flex;
+  justify-content: space-between;
+}
+.input-field{
+ 
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+
+}
+.custom-select  {
+  width: 198px;
+  height: 32px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+ padding: 4px 8px 4px 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-filters{
+  display: flex;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+ 
+}
+
+th, td {
+  /* border: 1px solid #ddd; */
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  /* background-color: #f2f2f2; */
+}
+
+button {
+  padding: 5px 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.pagination button {
+  margin: 0 5px;
+}
